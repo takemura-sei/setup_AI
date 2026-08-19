@@ -1,0 +1,12 @@
+// TODO: __FEATURE_PASCAL__ のドメイン型を定義する
+// 生成先: <root>/shared/types/__FEATURE_CAMEL__.ts
+
+export interface __FEATURE_PASCAL__ {
+  id: string
+  // TODO: フィールドを追加する
+}
+
+// TODO: DBの行型からドメイン型へのマッパーが必要な場合はここに追加する
+// export function mapTo__FEATURE_PASCAL__(row: Database['public']['Tables']['__FEATURE_CAMEL__']['Row']): __FEATURE_PASCAL__ {
+//   throw new Error('not implemented')
+// }

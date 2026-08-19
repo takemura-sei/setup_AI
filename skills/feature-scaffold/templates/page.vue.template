@@ -1,0 +1,15 @@
+<!-- TODO: __FEATURE_PASCAL__ ページを実装する -->
+<!-- 生成先: <root>/pages/__FEATURE_CAMEL__/index.vue -->
+<script setup lang="ts">
+import { use__FEATURE_PASCAL__ } from '~/composables/use__FEATURE_PASCAL__'
+
+const { fetchAll } = use__FEATURE_PASCAL__()
+
+await fetchAll()
+</script>
+
+<template>
+  <div>
+    <!-- TODO: __FEATURE_PASCAL__ コンポーネントを配置する -->
+  </div>
+</template>

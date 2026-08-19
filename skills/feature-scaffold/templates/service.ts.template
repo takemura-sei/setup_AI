@@ -1,0 +1,13 @@
+// TODO: __FEATURE_CAMEL__ に関するビジネスロジックを実装する
+// 生成先: <root>/services/__FEATURE_CAMEL__Service.ts
+
+import type { __FEATURE_PASCAL__ } from '~/shared/types/__FEATURE_CAMEL__'
+
+export const __FEATURE_CAMEL__Service = {
+  async fetchAll(): Promise<__FEATURE_PASCAL__[]> {
+    // TODO: $fetch('/api/__FEATURE_CAMEL__') 等でserver/apiを呼び出す
+    throw new Error('not implemented')
+  },
+
+  // TODO: 必要なメソッドを追加する（create / update / delete 等）
+}
