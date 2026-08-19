@@ -1,0 +1,29 @@
+// TODO: __FEATURE_CAMEL__ のストアを実装する（Piniaを使わないプロジェクトでは書き換える）
+// 生成先: <root>/stores/__FEATURE_CAMEL__.ts
+
+import { defineStore } from 'pinia'
+import type { __FEATURE_PASCAL__ } from '~/shared/types/__FEATURE_CAMEL__'
+import { __FEATURE_CAMEL__Service } from '~/services/__FEATURE_CAMEL__Service'
+
+export const use__FEATURE_PASCAL__Store = defineStore('__FEATURE_CAMEL__', {
+  state: () => ({
+    items: [] as __FEATURE_PASCAL__[],
+    isLoading: false,
+    error: null as string | null,
+  }),
+
+  actions: {
+    async fetchAll() {
+      this.isLoading = true
+      this.error = null
+      try {
+        // TODO: 実装
+        this.items = await __FEATURE_CAMEL__Service.fetchAll()
+      } catch (e) {
+        this.error = e instanceof Error ? e.message : 'unknown error'
+      } finally {
+        this.isLoading = false
+      }
+    },
+  },
+})

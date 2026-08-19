@@ -1,0 +1,14 @@
+// TODO: __FEATURE_CAMEL__ 一覧取得APIを実装する
+// 生成先: <root>/server/api/__FEATURE_CAMEL__/index.get.ts
+
+import type { __FEATURE_PASCAL__ } from '~/shared/types/__FEATURE_CAMEL__'
+
+export default defineEventHandler(async (event): Promise<__FEATURE_PASCAL__[]> => {
+  // TODO: Supabaseクライアント取得・クエリ実装
+  // const client = await serverSupabaseClient(event)
+  // const { data, error } = await client.from('__FEATURE_CAMEL__').select('*')
+  // if (error) throw createError({ statusCode: 500, statusMessage: error.message })
+  // return data.map(mapTo__FEATURE_PASCAL__)
+
+  throw createError({ statusCode: 501, statusMessage: 'Not implemented: __FEATURE_CAMEL__ API' })
+})

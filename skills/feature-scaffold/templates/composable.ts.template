@@ -1,0 +1,18 @@
+// TODO: __FEATURE_CAMEL__ 用のcomposableを実装する
+// 生成先: <root>/composables/use__FEATURE_PASCAL__.ts
+
+import { storeToRefs } from 'pinia'
+import { use__FEATURE_PASCAL__Store } from '~/stores/__FEATURE_CAMEL__'
+
+export function use__FEATURE_PASCAL__() {
+  const store = use__FEATURE_PASCAL__Store()
+  const { items, isLoading, error } = storeToRefs(store)
+
+  return {
+    items,
+    isLoading,
+    error,
+    fetchAll: store.fetchAll,
+    // TODO: 必要な操作を追加する
+  }
+}

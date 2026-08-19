@@ -1,0 +1,20 @@
+<!-- TODO: __FEATURE_PASCAL__ コンポーネントを実装する -->
+<!-- 生成先: <root>/components/__FEATURE_PASCAL__/__FEATURE_PASCAL__.vue -->
+<script setup lang="ts">
+import { use__FEATURE_PASCAL__ } from '~/composables/use__FEATURE_PASCAL__'
+
+const { items, isLoading, error } = use__FEATURE_PASCAL__()
+</script>
+
+<template>
+  <div>
+    <!-- TODO: マークアップを実装する -->
+    <p v-if="isLoading">Loading...</p>
+    <p v-else-if="error">{{ error }}</p>
+    <ul v-else>
+      <li v-for="item in items" :key="item.id">
+        <!-- TODO -->
+      </li>
+    </ul>
+  </div>
+</template>

@@ -1,0 +1,10 @@
+// TODO: __FEATURE_CAMEL__ のテストを実装する
+// テスト先行(TDD)で実装する場合は、実装より先にこのファイルを埋める
+// tests/ 配下は src（または app）の構造をミラーする方針とする
+// 例: services/__FEATURE_CAMEL__Service.ts -> tests/services/__FEATURE_CAMEL__Service.spec.ts
+
+import { describe, it, expect } from 'vitest'
+
+describe('__FEATURE_PASCAL__', () => {
+  it.todo('TODO: テストケースを追加する')
+})
