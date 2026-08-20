@@ -1,0 +1,2 @@
+      - name: Typecheck
+        run: __RUN_PREFIX__ typecheck
