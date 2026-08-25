@@ -1,0 +1,17 @@
+// __VUE_IMPORT__
+import js from '@eslint/js'
+import tseslint from 'typescript-eslint'
+
+export default tseslint.config(
+  js.configs.recommended,
+  ...tseslint.configs.recommended,
+  // __VUE_CONFIG__
+  {
+    ignores: ['dist/**', 'node_modules/**', '.nuxt/**', '.output/**'],
+  },
+  {
+    rules: {
+      // プロジェクト固有のルール調整はここに追加する
+    },
+  },
+)
