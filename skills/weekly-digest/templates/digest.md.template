@@ -1,0 +1,13 @@
+### __REPO_NAME__
+
+- オープンissue数: __OPEN_ISSUE_COUNT__
+- 今週クローズ: __CLOSED_THIS_WEEK__
+- 今週作成: __CREATED_THIS_WEEK__
+
+**放置issue（しきい値超過）**
+
+__STALE_ISSUES__
+
+**レビュー未対応PR**
+
+__PENDING_PRS__
